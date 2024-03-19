@@ -1,0 +1,9 @@
+{
+  "name": "red",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.3"
+  }
+}
