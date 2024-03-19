@@ -27,7 +27,7 @@ This endpoint pushes data to Redshift.
 GET /redshift
 Headers:
 
-Authorization: Your authorization token. The valid token is 'redshift123!'.
+Authorization: Your authorization token. The valid token is 'pass'.
 ```
 
 ## Response
@@ -40,4 +40,4 @@ If an error occurs during the process, it will be logged to the console.
 
 ## Note
 
-Please replace 'redshift123!' with your actual token in a production environment.
+Please replace 'pass' with your actual token in a production environment.
