@@ -2,14 +2,14 @@ const fetch = require('node-fetch');
 const express = require('express');
 const app = express();
 const port = 3000;
-
+require('dotenv').config()
 const Shopify = require('shopify-api-node');
 const jwt = require('jsonwebtoken');
 
 const shopify = new Shopify({
-  shopName: 'your-shop-name',
-  apiKey: 'your-api-key',
-  password: 'your-password'
+  shopName: process.env.shopName,
+  apiKey: process.env.apiKey,
+  password: process.env.password
 });
 
 
